@@ -7,7 +7,7 @@
 </head>
 <body>
     <center>
-    <form action="result.html"method="post"enctype="">
+    <form method="post"enctype="">
         <fieldset>
             <legend><h2>Application form</h2></legend>
             <img src="https://www.logo.wine/a/logo/Genpact/Genpact-Logo.wine.svg"width="300px"height="100px"><br>
@@ -45,7 +45,7 @@
             <input type="text"id="a"name="CGPA"pattern="[0-9]{2}%" title="only numbers and special character % is allowed"required>&emsp;<br><br>
             &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<label for="a">Upload resume</label>
             <input type="file"id="a"name="resume"accept=".pdf"required><br><br>
-        <input type="submit"id=""name="submit"value="apply">
+        <input type="submit"id=""name="submit"value="apply" formaction="result.html">
     </fieldset>
     </form>
 </center>
